@@ -43,9 +43,12 @@ adb install -r sparkle-rows-for-monet-1.1.apk
 ## Build
 
 ```bash
-./gradlew :app:assembleRelease   # R8, signed with the debug key
+./gradlew :app:assembleRelease   # R8
 ./gradlew :app:testDebugUnitTest
 ```
+
+Signing: `release.keystore` + `keystore.properties` (both git-ignored); without them the release
+falls back to the debug key. Back up the keystore — future APKs must keep the same signature.
 
 ## Notes
 

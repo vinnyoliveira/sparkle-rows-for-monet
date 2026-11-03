@@ -44,9 +44,12 @@ adb install -r sparkle-rows-for-monet-1.1.apk
 ## Compilar
 
 ```bash
-./gradlew :app:assembleRelease   # R8, firmado con la clave de debug
+./gradlew :app:assembleRelease   # R8
 ./gradlew :app:testDebugUnitTest
 ```
+
+Firma: `release.keystore` + `keystore.properties` (ambos fuera de Git); sin ellos la release usa la
+clave de debug. Guarda el keystore: los APK futuros deben mantener la misma firma.
 
 ## Notas
 
