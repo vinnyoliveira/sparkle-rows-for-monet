@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_intro">As linhas e os programas atualizam sozinhos. Não precisa de fazer nada.</string>
+    <string name="status_syncing">A sincronizar…</string>
+    <string name="status_error">Erro: %1$s</string>
+    <string name="action_refresh">Limpar cache e atualizar</string>
+
+    <string name="setup_intro">Cole os links da lista e do EPG que o seu Sparkle usa. Ficam guardados e nunca mais são pedidos.</string>
+    <string name="setup_list">Link da lista (M3U)</string>
+    <string name="setup_epg">Link do EPG (XMLTV)</string>
+    <string name="setup_epg_hint">Deixe vazio para usar o link que vem dentro da lista.</string>
+    <string name="setup_save">Guardar e publicar</string>
+    <string name="setup_invalid">Indique um link começado por http:// ou https://</string>
+
+    <string name="sync_no_list">Sem lista configurada</string>
+    <string name="sync_empty_list">A lista não tem canais</string>
+    <string name="sync_sparkle_empty">O Sparkle ainda não publicou canais</string>
+    <string name="sync_list_error">Não foi possível carregar a lista: %1$s</string>
+    <string name="sync_done">%1$d cartões em %2$d linhas (EPG %3$d)</string>
+
+    <string name="next_setting">Programas a seguir nos cartões: %1$s</string>
+    <string name="next_none">nenhum</string>
+
+    <string name="update_available">A versão %1$s está disponível</string>
+    <string name="update_now">Atualizar</string>
+    <string name="update_downloading">A descarregar…</string>
+    <string name="update_error">Falha ao descarregar</string>
+
+    <string name="card_next">A seguir: %1$s</string>
+    <string name="card_then">Depois: %1$s</string>
+    <string name="card_next_none">A seguir: sem informação</string>
+    <string name="channel_description">Linhas IPTV</string>
+    <string name="channel_error">Não foi possível criar a linha %1$s</string>
+    <string name="recent_row">Canais recentes</string>
+</resources>

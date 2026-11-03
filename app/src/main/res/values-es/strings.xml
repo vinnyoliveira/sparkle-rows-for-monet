@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_intro">Las filas y los programas se actualizan solos. No hay nada que hacer.</string>
+    <string name="status_syncing">Sincronizando…</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="action_refresh">Borrar caché y actualizar</string>
+
+    <string name="setup_intro">Pega los enlaces de la lista y del EPG que usa tu Sparkle. Se guardan y no se vuelven a pedir.</string>
+    <string name="setup_list">Enlace de la lista (M3U)</string>
+    <string name="setup_epg">Enlace del EPG (XMLTV)</string>
+    <string name="setup_epg_hint">Déjalo vacío para usar el enlace que viene en la lista.</string>
+    <string name="setup_save">Guardar y publicar</string>
+    <string name="setup_invalid">Escribe un enlace que empiece por http:// o https://</string>
+
+    <string name="sync_no_list">Sin lista configurada</string>
+    <string name="sync_empty_list">La lista no tiene canales</string>
+    <string name="sync_sparkle_empty">Sparkle todavía no ha publicado canales</string>
+    <string name="sync_list_error">No se pudo cargar la lista: %1$s</string>
+    <string name="sync_done">%1$d tarjetas en %2$d filas (EPG %3$d)</string>
+
+    <string name="next_setting">Próximos programas en las tarjetas: %1$s</string>
+    <string name="next_none">ninguno</string>
+
+    <string name="update_available">La versión %1$s está disponible</string>
+    <string name="update_now">Actualizar</string>
+    <string name="update_downloading">Descargando…</string>
+    <string name="update_error">Error al descargar</string>
+
+    <string name="card_next">A continuación: %1$s</string>
+    <string name="card_then">Después: %1$s</string>
+    <string name="card_next_none">A continuación: sin información</string>
+    <string name="channel_description">Filas IPTV</string>
+    <string name="channel_error">No se pudo crear la fila %1$s</string>
+    <string name="recent_row">Canales recientes</string>
+</resources>

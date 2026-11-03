@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path
+        android:fillColor="#0D0F14"
+        android:pathData="M0,0h320v180h-320z" />
+
+    <!-- Tres cartoes 16:9, o do meio a tocar. -->
+    <path
+        android:fillColor="#26365F"
+        android:pathData="M34,38h84v47h-84z" />
+    <path
+        android:fillColor="#3A4E8F"
+        android:pathData="M118,66h96v54h-96z" />
+    <path
+        android:fillColor="#26365F"
+        android:pathData="M214,38h72v41h-72z" />
+
+    <path
+        android:fillColor="#E6ECFF"
+        android:pathData="M158,84l16,9l-16,9z" />
+
+    <path
+        android:fillColor="#B7C4FF"
+        android:pathData="M34,130h252v4h-252z" />
+</vector>

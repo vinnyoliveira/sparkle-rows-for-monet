@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sparkle Rows</string>
+
+    <string name="status_intro">Your rows and programs update on their own. Nothing else to do.</string>
+    <string name="status_syncing">Syncing…</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="action_refresh">Clear cache and refresh</string>
+
+    <string name="setup_intro">Paste the playlist and EPG links your Sparkle uses. Saved once, then never asked again.</string>
+    <string name="setup_list">Playlist URL (M3U)</string>
+    <string name="setup_epg">EPG URL (XMLTV)</string>
+    <string name="setup_epg_hint">Leave empty to use the link inside the playlist.</string>
+    <string name="setup_save">Save and publish</string>
+    <string name="setup_invalid">Enter a link starting with http:// or https://</string>
+
+    <string name="sync_no_list">No playlist configured</string>
+    <string name="sync_empty_list">The playlist has no channels</string>
+    <string name="sync_sparkle_empty">Sparkle has not published any channels yet</string>
+    <string name="sync_list_error">Could not load the playlist: %1$s</string>
+    <string name="sync_done">%1$d cards in %2$d rows (EPG %3$d)</string>
+
+    <string name="next_setting">Next programs on cards: %1$s</string>
+    <string name="next_none">none</string>
+
+    <string name="update_available">Version %1$s is available</string>
+    <string name="update_now">Update</string>
+    <string name="update_downloading">Downloading…</string>
+    <string name="update_error">Download failed</string>
+
+    <string name="card_next">Next: %1$s</string>
+    <string name="card_then">Then: %1$s</string>
+    <string name="card_next_none">Next: no information</string>
+    <string name="channel_description">IPTV rows</string>
+    <string name="channel_error">Could not create row %1$s</string>
+    <string name="recent_row">Recent channels</string>
+</resources>

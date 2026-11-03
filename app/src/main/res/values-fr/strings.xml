@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_intro">Les lignes et les programmes se mettent à jour seuls. Rien à faire.</string>
+    <string name="status_syncing">Synchronisation…</string>
+    <string name="status_error">Erreur : %1$s</string>
+    <string name="action_refresh">Vider le cache et actualiser</string>
+
+    <string name="setup_intro">Collez les liens de la liste et de l\'EPG utilisés par votre Sparkle. Enregistrés une fois, puis plus jamais demandés.</string>
+    <string name="setup_list">Lien de la liste (M3U)</string>
+    <string name="setup_epg">Lien de l\'EPG (XMLTV)</string>
+    <string name="setup_epg_hint">Laissez vide pour utiliser le lien contenu dans la liste.</string>
+    <string name="setup_save">Enregistrer et publier</string>
+    <string name="setup_invalid">Indiquez un lien commençant par http:// ou https://</string>
+
+    <string name="sync_no_list">Aucune liste configurée</string>
+    <string name="sync_empty_list">La liste ne contient aucune chaîne</string>
+    <string name="sync_sparkle_empty">Sparkle n\'a pas encore publié de chaînes</string>
+    <string name="sync_list_error">Impossible de charger la liste : %1$s</string>
+    <string name="sync_done">%1$d cartes sur %2$d lignes (EPG %3$d)</string>
+
+    <string name="next_setting">Programmes suivants sur les cartes : %1$s</string>
+    <string name="next_none">aucun</string>
+
+    <string name="update_available">La version %1$s est disponible</string>
+    <string name="update_now">Mettre à jour</string>
+    <string name="update_downloading">Téléchargement…</string>
+    <string name="update_error">Échec du téléchargement</string>
+
+    <string name="card_next">À suivre : %1$s</string>
+    <string name="card_then">Ensuite : %1$s</string>
+    <string name="card_next_none">À suivre : aucune information</string>
+    <string name="channel_description">Lignes IPTV</string>
+    <string name="channel_error">Impossible de créer la ligne %1$s</string>
+    <string name="recent_row">Chaînes récentes</string>
+</resources>
